@@ -1,6 +1,11 @@
-<h1>Listagem do usuário  {{$user->name}}</h1>
+@extends('layouts.app')
 
-<ul>
-    <li>{{ $user->name}}
-    <li>{{ $user->email}} 
-</ul>
+@section('content')
+    <h1>Listagem do usuário  {{$user->name}}</h1>
+
+    <ul>
+        <li>{{ $user->name}}
+        <li>{{ $user->email}} 
+    </ul>
+
+@endsection
