@@ -23,4 +23,14 @@ class UserController extends Controller
         //dd('users.show', $id);
         return view('users.show',compact('user'));
     }
+
+    public function  create()
+    {
+        return view('users.create');
+    }
+
+    public  function store()
+    {
+        dd('cadastrando o usuário');
+    }
 }
