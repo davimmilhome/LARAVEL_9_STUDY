@@ -48,6 +48,7 @@ class StoreUpdateUserFormRequest extends FormRequest
             ];
         }
 
-        return $rules
+        return $rules;
+
     }
 }
